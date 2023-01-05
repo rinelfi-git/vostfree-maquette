@@ -7,6 +7,10 @@
     font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
 }
 
+ol, ul, li {
+    list-style: none;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -20,10 +24,6 @@ header {
 main {
     /*background-color: red;*/
     flex: 1;
-}
-
-footer {
-    background-color: blue;
 }
 
 button, button:hover, button:focus {
@@ -58,6 +58,7 @@ a {
     justify-content: space-between;
     align-items: center;
 }
+
 .vost-menu-nav>.vost-container {
     padding: 0;
 }
@@ -162,4 +163,105 @@ a {
     border-left: 1px solid #ddd;
     cursor: pointer;
 }
+
 /* header middle nav */
+
+/* footer */
+.vost-footer-desc {
+    background-color: #fff;
+    display: table;
+    width: 900px;
+    padding: 10px;
+    margin: 10px auto 30px;
+    color: #7a7a7a;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid #c2c2c2;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    position: relative;
+}
+
+.vost-footer-desc::before {
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-right: 1px #c2c2c2 solid;
+    border-top: 1px #c2c2c2 solid;
+    transform: rotate(315deg) translateX(-50%);
+    top: -15px;
+    left: 50%;
+}
+#vost-footer {
+    width: 100%;
+    margin: 5px 0 0;
+    padding: 0;
+    display: table;
+    clear: both;
+    position: relative;
+    font-weight: 700;
+}
+
+#vost-to-top {
+    background: url(../img/sprite.png) no-repeat -165px 0 transparent;
+    width: 63px;
+    height: 68px;
+    position: absolute;
+    left: 50%;
+    top: -25px;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+#vost-footer .vost-footer-top {
+    background: #2e3543;
+    width: 100%;
+    padding: 20px 0;
+    clear: both;
+    display: table;
+    color: #fff;
+}
+
+#vost-footer .vost-footer-top-content {
+    margin: 0 auto;
+    width: 900px;
+}
+
+#vost-footer .vost-footer-alt {
+    background: #2e3543;
+    width: 100%;
+    height: 30px;
+    clear: both;
+    color: #fff;
+    line-height: 30px;
+    display: table;
+}
+#vost-footer .vost-footer-alt-content {
+    margin: 0 auto;
+    width: 900px;
+    border-top: 1px solid #4f5665;
+    display: table;
+    font-size: 12px;
+}
+#vost-footer .vost-footer-link {
+    display: table;
+    margin: 0 auto;
+    height: 35px;
+    line-height: 35px;
+}
+#vost-footer .vost-footer-link li {
+    color: #fff;
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+#vost-footer a {
+    background-color: transparent;
+    color: #ff935e;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* footer */
