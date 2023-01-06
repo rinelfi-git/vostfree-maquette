@@ -114,6 +114,7 @@ a {
 .vost-menu-nav .vost-nav-group .vost-menu-container.home {
     color: #fff;
     background: #33ac31;
+    font-size: 21px;
 }
 
 .vost-menu-nav .vost-nav-group .vost-menu-container:first-child {
