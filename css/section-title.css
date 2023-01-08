@@ -14,22 +14,22 @@
     background-color: #fff;
     padding: 10px;
     margin-top: -5px;
-    border: var(--border-grey) 1px solid;
-    border-top: var(--orange) 5px solid;
+    border: var(--grey-light-color) 1px solid;
+    border-top: var(--secondary-color) 5px solid;
     border-radius: 5px 5px 0 0;
     font-size: 13px;
 }
 
 .vost-media-block-title>i {
-    color: var(--orange);
+    color: var(--secondary-color);
 }
 .vost-media-block-action {
     display: flex;
-    color: var(--orange);
+    color: var(--secondary-color);
 }
 .vost-media-block-action-item {
     padding: 2px 5px;
-    border-right: var(--border-grey) 1px solid;
+    border-right: var(--grey-light-color) 1px solid;
     background-color: #fff;
     cursor: pointer;
 }

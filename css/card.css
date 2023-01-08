@@ -1,0 +1,17 @@
+.vost-card {
+    width: 100%;
+}
+.vost-card-header {
+    border-radius: 3px 3px 0 0;
+    font-weight: 700;
+    color: #fff;
+    background-color: var(--dark-color);
+    font-size: 13px;
+    padding: 0 10px;
+    height: 35px;
+    line-height: 35px;
+}
+.vost-card-body {
+    border: 1px solid var(--grey-light-color);
+    border-top: 3px solid var(--secondary-color);
+}

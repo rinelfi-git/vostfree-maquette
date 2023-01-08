@@ -1,0 +1,58 @@
+.vost-new {
+    display: flex;
+    border-top: 1px solid var(--grey-light-color);
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.vost-new .vost-image {
+    display: inline-block;
+    width: 25px;
+}
+
+.vost-new .vost-image img {
+    width: 100%;
+}
+
+.vost-new .vost-info {
+    height: 30px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.vost-new .vost-info .vost-title {
+    width: 130px;
+    border-left: 3px solid var(--dark-color);
+    border-top: 1px solid var(--grey-light-color);
+    border-bottom: 1px solid var(--grey-light-color);
+    border-radius: 3px 0 0 3px;
+    padding: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.vost-new .vost-info .vost-episode {
+    background-color: var(--secondary-color);
+    border-radius: 0 3px 3px 0;
+    border-top: 1px solid var(--secondary-color);
+    border-bottom: 1px solid var(--secondary-color);
+    color: var(--dark-color);
+    padding: 8px;
+}
+
+.vost-new .vost-date {
+    color: #fff;
+    background-color: var(--dark-color);
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.vost-new:first-child {
+    border-top: none;
+}

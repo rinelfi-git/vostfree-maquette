@@ -5,12 +5,12 @@
     outline: 0;
     user-select: none;
     font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
-    --orange: #ff8055;
-    --font-grey: #6a7180;
-    --border-grey: #d7d8d9;
-    --block-black: #2e3543;
-    --block-green: #33ac31;
-    --block-green-dark: #118E0F;
+    --secondary-color: #ff8055;
+    --grey-color: #6a7180;
+    --grey-light-color: #d7d8d9;
+    --primary-color: #33ac31;
+    --primary-color-dark: #118E0F;
+    --dark-color: #2e3543;
 }
 
 ol, ul, li {
@@ -21,11 +21,11 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    color: var(--font-grey);
+    color: var(--grey-color);
 }
 
 header {
-    background-color: var(--block-black);
+    background-color: var(--dark-color);
 }
 
 #vost-page-content {
@@ -62,7 +62,7 @@ a {
 /* header top nav */
 
 .vost-top-nav {
-    background-color: var(--orange);
+    background-color: var(--secondary-color);
 }
 
 .vost-top-nav>.vost-container, .vost-menu-nav>.vost-container {
@@ -96,7 +96,7 @@ a {
 }
 
 .vost-btn.vost-primary {
-    background-color: var(--block-green);
+    background-color: var(--primary-color);
     text-shadow: rgb(0 0 0 / 20%) 1px 1px 0;
     color: #fff !important;
     font-weight: 700;
@@ -124,7 +124,7 @@ a {
 
 .vost-menu-nav .vost-nav-group .vost-menu-container.home {
     color: #fff;
-    background: var(--block-green);
+    background: var(--primary-color);
     font-size: 21px;
 }
 
@@ -151,7 +151,7 @@ a {
 
 .vost-menu-nav .vost-nav-group .vost-menu-container.home:hover {
     color: #fff;
-    background: var(--block-green-dark);
+    background: var(--primary-color-dark);
 }
 
 #search-container {
@@ -184,7 +184,7 @@ a {
     width: 900px;
     padding: 10px;
     margin: 10px auto 30px;
-    color: var(--block-black);
+    color: var(--dark-color);
     font-size: 12px;
     text-align: center;
     border: 1px solid #c2c2c2;
@@ -283,7 +283,5 @@ a {
 }
 .vost-page-right {
     width: calc(300px - 10px);
-    height: 50px;
-    background-color: red;
 }
 /* page content */
